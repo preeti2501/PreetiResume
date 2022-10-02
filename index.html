@@ -9,6 +9,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
   <!-- stylesheets -->
   <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="css/form.css" type="text/css" />
   <!-- favicon -->
   <link rel="shortcut icon" href="img/favicon.ico">
 
@@ -168,7 +169,33 @@
       </div>
     </section>
       <P style="text-align: LEFT;">Want to send a message?
-            <div id="box" class="gform container embed-responsive embed-responsive-1by1"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd70u4owCW6a-wRu1XjfG425I-Kgm_p2E-_dOXS1J1rbBNbdA/viewform?usp=sf_link" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></P>
+
+        <div class="form-container">
+          <form action="" class="form">
+            <div class="form-field">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+            </div>
+            <div class="form-field">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email">
+            </div>
+            <div class="form-field">
+              <label for="address">Address:</label>
+              <input type="text" id="address" name="address">
+            </div>
+            <div class="form-field">
+              <label for="phoneNumber">Phone number:</label>
+              <input type="text" id="phoneNumber" name="phoneNumber">
+            </div>
+            <div class="form-field">
+              <label for="comments">Comments:</label>
+              <input type="text" id="comments" name="comments">
+            </div>
+            <input type="submit" value="Submit">
+          </form> 
+        </div>
+
 
     <!--Footer-->
     <footer class="center">
